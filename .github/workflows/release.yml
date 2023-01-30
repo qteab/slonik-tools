@@ -8,6 +8,11 @@ on:
       - next
       - next-major
 
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
 jobs:
   # lint:
   #   name: Lint
@@ -69,4 +74,4 @@ jobs:
           yarn publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ github.PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
