@@ -1,0 +1,16 @@
+{
+  "name": "@qte/slonik-migrate",
+  "version": "0.0.0-development",
+  "main": "dist/index",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "publish": "semantic-release"
+  },
+  "devDependencies": {
+    "@semantic-release/npm": "^9.0.2",
+    "typescript": "^4.9.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "slonik-tools",
+  "packageManager": "yarn@3.3.1",
+  "workspaces": [
+    "packages/migrate"
+  ],
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
