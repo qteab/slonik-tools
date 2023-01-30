@@ -555,7 +555,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@qte/slonik-migrate", "workspace:packages/migrate"],\
             ["@types/semantic-release", "npm:20.0.0"],\
+            ["@types/semver", "npm:7.3.13"],\
             ["semantic-release", "npm:20.1.0"],\
+            ["semver", "npm:7.3.8"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
           ],\
           "linkType": "SOFT"\
@@ -755,6 +757,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@types/semantic-release", "npm:20.0.0"],\
             ["@types/node", "npm:18.11.18"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/semver", [\
+        ["npm:7.3.13", {\
+          "packageLocation": "./.yarn/cache/@types-semver-npm-7.3.13-56212b60da-00c0724d54.zip/node_modules/@types/semver/",\
+          "packageDependencies": [\
+            ["@types/semver", "npm:7.3.13"]\
           ],\
           "linkType": "HARD"\
         }]\
